@@ -55,6 +55,13 @@ public:
     {
         return 0;
     }
+    virtual void print_information()
+    {
+        std::cout << name << ": " << std::endl;
+        proverka();
+        std::cout << "Количество сторон: " << kol_storon << std::endl;
+        std::cout << std::endl;
+    }
 };
 
 class Treugolnik : public Figura
@@ -108,6 +115,15 @@ public:
     int get_C()
     {
         return C;
+    }
+    void print_information() override
+    {
+        std::cout << name << ": " << std::endl;
+        proverka();
+        std::cout << "Количество сторон: " << kol_storon << std::endl;
+        std::cout << "Стороны: a=" << get_a() << " b=" << get_b() << " c=" << get_c() << std::endl;
+        std::cout << "Углы: А=" << get_A() << " B=" << get_B() << " C=" << get_C() << std::endl;
+        std::cout << std::endl;
     }
 };
 
@@ -173,6 +189,15 @@ public:
     {
         return D;
     }
+    void print_information() override
+    {
+        std::cout << name << ": " << std::endl;
+        proverka();
+        std::cout << "Количество сторон: " << kol_storon << std::endl;
+        std::cout << "Стороны: a=" << get_a() << " b=" << get_b() << " c=" << get_c() << " d=" << get_d() << std::endl;
+        std::cout << "Углы: А=" << get_A() << " B=" << get_B() << " C=" << get_C() << " D=" << get_D() << std::endl;
+        std::cout << std::endl;
+    }
 };
 
 class Pramoug_Treugolnik : public Treugolnik
@@ -191,6 +216,17 @@ public:
         this->A = A;
         this->B = B;
         this->C = 90;
+    }
+    void proverka() override
+    {
+        if (A + B + C == 180 and C==90)
+        {
+            std::cout << "Правильная" << std::endl;
+        }
+        else
+        {
+            std::cout << "Неправильная" << std::endl;
+        }
     }
 };
 
@@ -211,6 +247,17 @@ public:
         this->B = B;
         this->C = A;
     }
+    void proverka() override
+    {
+        if (A + B + C == 180 and a==c and A==C)
+        {
+            std::cout << "Правильная" << std::endl;
+        }
+        else
+        {
+            std::cout << "Неправильная" << std::endl;
+        }
+    }
 };
 
 class Ravnostor_Treugolnik : public Treugolnik
@@ -229,6 +276,17 @@ public:
         this->A = 60;
         this->B = 60;
         this->C = 60;
+    }
+    void proverka() override
+    {
+        if (A + B + C == 180 and a==b and b==c and A==B and B==C)
+        {
+            std::cout << "Правильная" << std::endl;
+        }
+        else
+        {
+            std::cout << "Неправильная" << std::endl;
+        }
     }
 };
 
@@ -251,6 +309,17 @@ public:
         this->C = A;
         this->D = B;
     }
+    void proverka() override
+    {
+        if (A + B + C + D == 360 and a==c and b==d and A==C and B==D)
+        {
+            std::cout << "Правильная" << std::endl;
+        }
+        else
+        {
+            std::cout << "Неправильная" << std::endl;
+        }
+    }
 };
 
 class Pryamougolnik : public Parallelogramm
@@ -271,6 +340,17 @@ public:
         this->B = 90;
         this->C = 90;
         this->D = 90;
+    }
+    void proverka() override
+    {
+        if (A + B + C + D == 360 and a == c and b == d and A == B and B == C and C == D)
+        {
+            std::cout << "Правильная" << std::endl;
+        }
+        else
+        {
+            std::cout << "Неправильная" << std::endl;
+        }
     }
 };
 
@@ -293,6 +373,17 @@ public:
         this->C = 90;
         this->D = 90;
     }
+    void proverka() override
+    {
+        if (A + B + C + D == 360 and a == b and b == c and c == d and A == B and B == C and C == D)
+        {
+            std::cout << "Правильная" << std::endl;
+        }
+        else
+        {
+            std::cout << "Неправильная" << std::endl;
+        }
+    }
 };
 
 class Romb : public Parallelogramm
@@ -314,62 +405,55 @@ public:
         this->C = A;
         this->D = B;
     }
+    void proverka() override
+    {
+        if (A + B + C + D == 360 and a == b and b == c and c == d and A == C and B == D)
+        {
+            std::cout << "Правильная" << std::endl;
+        }
+        else
+        {
+            std::cout << "Неправильная" << std::endl;
+        }
+    } 
 };
-
-void print_information(Figura* x)
-{
-    std::cout << x->get_name() << ": " << std::endl;
-    x->proverka();
-    std::cout << "Количество сторон: " << x->get_kol_storon() << std::endl;
-    if (x->get_kol_storon() == 3)
-    {
-        std::cout << "Стороны: a=" << x->get_a() << " b=" << x->get_b() << " c=" << x->get_c() << std::endl;
-        std::cout << "Углы: А=" << x->get_A() << " B=" << x->get_B() << " C=" << x->get_C() << std::endl;
-    }
-    if (x->get_kol_storon() == 4)
-    {
-        std::cout << "Стороны: a=" << x->get_a() << " b=" << x->get_b() << " c=" << x->get_c() << " d=" << x->get_d() << std::endl;
-        std::cout << "Углы: А=" << x->get_A() << " B=" << x->get_B() << " C=" << x->get_C() << " D=" << x->get_D() << std::endl;
-    }
-    std::cout << std::endl;
-}
 
 int main()
 {
     setlocale(LC_ALL, "Rus");
     std::system("chcp 1251");
     Figura* figura = new Figura();
-    print_information(figura);
+    figura->print_information();
     delete(figura);
     Treugolnik* treugolnik = new Treugolnik(10, 20, 30, 50, 60, 70);
-    print_information(treugolnik);
+    treugolnik->print_information();
     delete(treugolnik);
     Pramoug_Treugolnik* pr_treugolnik = new Pramoug_Treugolnik(10, 20, 30, 50, 60);
-    print_information(pr_treugolnik);
+    pr_treugolnik->print_information();
     delete(pr_treugolnik);
     Pramoug_Treugolnik* pr_treugolnik1 = new Pramoug_Treugolnik(10, 20, 30, 50, 40);
-    print_information(pr_treugolnik1);
+    pr_treugolnik1->print_information();
     delete(pr_treugolnik1);
     Ravnobed_Treugolnik* ravb_treugolnik = new Ravnobed_Treugolnik(10, 20, 50, 60);
-    print_information(ravb_treugolnik);
+    ravb_treugolnik->print_information();
     delete(ravb_treugolnik);
     Ravnostor_Treugolnik* ravs_treugolnik = new Ravnostor_Treugolnik(30);
-    print_information(ravs_treugolnik);
+    ravs_treugolnik->print_information();
     delete(ravs_treugolnik);
     Chetirehugolnik* chetirehugolnik = new Chetirehugolnik(10, 20, 30, 40, 50, 60, 70, 80);
-    print_information(chetirehugolnik);
+    chetirehugolnik->print_information();
     delete(chetirehugolnik);
     Pryamougolnik* pryamougolnik = new Pryamougolnik(10, 20);
-    print_information(pryamougolnik);
+    pryamougolnik->print_information();
     delete(pryamougolnik);
     Kvadrat* kvadrat = new Kvadrat(20);
-    print_information(kvadrat);
+    kvadrat->print_information();
     delete(kvadrat);
     Parallelogramm* parallelogramm = new Parallelogramm(20, 30, 30, 40);
-    print_information(parallelogramm);
+    parallelogramm->print_information();
     delete(parallelogramm);
     Romb* romb = new Romb(30, 30, 40);
-    print_information(romb);
+    romb->print_information();
     delete(romb);
     
     
