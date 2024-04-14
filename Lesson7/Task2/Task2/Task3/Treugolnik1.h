@@ -8,7 +8,7 @@ protected:
     double a, b, c;
     int A, B, C;
 public:
-    Treugolnik(double a, double b, double c, int A, int B, int C);   
+    Treugolnik(double a, double b, double c, int A, int B, int C, std::string name);
     double get_a();   
     double get_b();    
     double get_c();    

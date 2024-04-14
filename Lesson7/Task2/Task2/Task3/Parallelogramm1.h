@@ -8,7 +8,7 @@ protected:
     double a, b, c, d;
     int A, B, C, D;
 public:
-    Parallelogramm(double a, double b, int A, int B);
+    Parallelogramm(double a, double b, int A, int B, std::string name);
     
     void proverka() override;
     

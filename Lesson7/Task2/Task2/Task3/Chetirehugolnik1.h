@@ -8,7 +8,7 @@ protected:
     double a, b, c, d;
     int A, B, C, D;
 public:
-    Chetirehugolnik(double a, double b, double c, double d, int A, int B, int C, int D);
+    Chetirehugolnik(double a, double b, double c, double d, int A, int B, int C, int D, std::string name);
     void proverka() override;
     
     double get_a();

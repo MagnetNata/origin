@@ -4,11 +4,11 @@
 using namespace std;
 
 std::string err;
-const char* get_err()
+const char* ErrorArgument::get_err()
 {
    return err.c_str();
 }
-const char* what()
+const char* ErrorArgument::what()
 {
     return err.c_str();
 }

@@ -8,7 +8,7 @@ protected:
     double a, b, c, d;
     int A, B, C, D;
 public:
-    Romb(double a, int A, int B);
+    Romb(double a, int A, int B, std::string name);
    
     void proverka() override;
     

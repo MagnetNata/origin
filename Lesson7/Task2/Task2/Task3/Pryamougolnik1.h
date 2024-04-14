@@ -8,7 +8,7 @@ protected:
     double a, b, c, d;
     int A, B, C, D;
 public:
-    Pryamougolnik(double a, double b);
+    Pryamougolnik(double a, double b, std::string name);
 
     void proverka() override;
 };

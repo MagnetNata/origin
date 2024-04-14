@@ -8,7 +8,7 @@ Figura::Figura()
 }
 void Figura::proverka()
 {
-    std::cout << "Правильная" << std::endl;
+    std::cout << "Правильная" << std::endl << std::endl;
 }
 int Figura::get_kol_storon()
 {
@@ -52,8 +52,8 @@ int Figura::get_D()
 }
 void Figura::print_information()
 {
-    std::cout << name << ": " << std::endl;
-    proverka();
-    std::cout << "Количество сторон: " << kol_storon << std::endl;
-    std::cout << std::endl;
+  //  std::cout << name << ": " << std::endl;
+  //  proverka();
+  //  std::cout << "Количество сторон: " << kol_storon << std::endl;
+  //  std::cout << std::endl;
 }

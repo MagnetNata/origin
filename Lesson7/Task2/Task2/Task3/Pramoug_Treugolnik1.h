@@ -8,7 +8,7 @@ protected:
     double a, b, c;
     int A, B, C;
 public:
-    Pramoug_Treugolnik(double a, double b, double c, int A, int B);
+    Pramoug_Treugolnik(double a, double b, double c, int A, int B, std::string name);
     
     void proverka() override;
     

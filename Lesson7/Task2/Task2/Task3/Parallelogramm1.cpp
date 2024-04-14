@@ -1,11 +1,13 @@
 #include <iostream>
 #include "Chetirehugolnik1.h"
 #include "Parallelogramm1.h"
+#include "ErrorArgument1.h"
 
-Parallelogramm::Parallelogramm(double a, double b, int A, int B) : Chetirehugolnik(a, b, a, b, A, B, A, B)
+Parallelogramm::Parallelogramm(double a, double b, int A, int B, std::string name) : Chetirehugolnik(a, b, a, b, A, B, A, B, name)
     {
         kol_storon = 4;
-        name = "Параллелограмм";
+        this->name = name;
+      //  std::cout << "Создаю фигуру: " << name << std::endl;
         this->a = a;
         this->b = b;
         this->c = a;
@@ -14,6 +16,10 @@ Parallelogramm::Parallelogramm(double a, double b, int A, int B) : Chetirehugoln
         this->B = B;
         this->C = A;
         this->D = B;
+        if (a != c and b != d)
+            throw ErrorArgument("Стороны попарно не равны");
+        if (A != C and B != D)
+            throw ErrorArgument("Стороны попарно не равны");
     }
     void Parallelogramm::proverka()
     {

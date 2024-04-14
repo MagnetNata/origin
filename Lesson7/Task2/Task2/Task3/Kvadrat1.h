@@ -8,7 +8,7 @@ protected:
     double a, b, c, d;
     int A, B, C, D;
 public:
-    Kvadrat(double a);
+    Kvadrat(double a, std::string name);
    
     void proverka() override;
     

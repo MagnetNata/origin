@@ -1,11 +1,13 @@
 #include <iostream>
 #include "Parallelogramm1.h"
 #include "Romb1.h"
+#include "ErrorArgument1.h"
 
-Romb::Romb(double a, int A, int B) : Parallelogramm(a, a, A, B)
+Romb::Romb(double a, int A, int B, std::string name) : Parallelogramm(a, a, A, B, name)
     {
         kol_storon = 4;
-        name = "Ромб";
+        this->name = name;
+       // std::cout << "Создаю фигуру: " << name << std::endl;
         this->a = a;
         this->b = a;
         this->c = a;
@@ -14,6 +16,10 @@ Romb::Romb(double a, int A, int B) : Parallelogramm(a, a, A, B)
         this->B = B;
         this->C = A;
         this->D = B;
+        if (a != b and b != c and c != d)
+            throw ErrorArgument("Стороны не равны");
+        if (A != C and B != D)
+            throw ErrorArgument("Стороны попарно не равны");
     }
     void Romb::proverka()
     {
