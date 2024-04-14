@@ -11,7 +11,10 @@ int main() {
     setlocale(LC_ALL, "Rus");
     std::system("chcp 1251");
     int x, y;
-#if defined MODE
+#ifndef MODE
+#error "Необходимо определить MODE"
+#endif
+
 #if MODE==0
     std::cout << "Работаю в режиме тренировки" << std::endl;
 #elif MODE==1
@@ -23,9 +26,6 @@ int main() {
     std::cout << "Результат сложения: " << add(x, y) << std::endl;
 #else
     std::cout << "Неизвестный режим. Завершение работы" << std::endl;
-#endif
-#else
-    std::cout << "Необходимо определить MODE" << std::endl;
 #endif
 
     return 0;
