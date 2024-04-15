@@ -1,0 +1,3 @@
+E:/002_Красновид/Нетология/Lesson_CMake/Task1/out/build/x64-Debug/CMakeFiles/my_first_cmake_program.dir
+E:/002_Красновид/Нетология/Lesson_CMake/Task1/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+E:/002_Красновид/Нетология/Lesson_CMake/Task1/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
