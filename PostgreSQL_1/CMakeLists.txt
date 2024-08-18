@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.20)
+set(PostgreSQL_ADDITIONAL_VERSIONS "16")
+project(PostgreSQL_1)
+add_subdirectory("D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2" libpqxx-build)
+add_executable(PostgreSQL_1 main.cpp "clients_sql.cpp")
+target_compile_features(PostgreSQL_1 PRIVATE cxx_std_17)
+target_link_libraries(PostgreSQL_1 PRIVATE pqxx)

@@ -1,0 +1,1297 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.37.32825.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/CMakeFiles/3.26.4-msvc4/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: D:\\Нетология\\Homework\\PostgreSQL_1\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.37.32825.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/CMakeFiles/3.26.4-msvc4/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: D:\\Нетология\\Homework\\PostgreSQL_1\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-df7jf7"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-df7jf7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-df7jf7
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_e9314 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_e9314.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_e9314.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_e9314.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e9314.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_e9314.exe /implib:cmTC_e9314.lib /pdb:cmTC_e9314.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3egaes"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3egaes"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3egaes
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_6fae7 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_6fae7.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_6fae7.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_6fae7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6fae7.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_6fae7.exe /implib:cmTC_6fae7.lib /pdb:cmTC_6fae7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:37 (check_function_exists)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for poll"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-if3ef8"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-if3ef8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_POLL"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-if3ef8
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_7e08c && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=poll /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_7e08c.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_7e08c.dir\\ /FS -c D:\\Нетология\\Homework\\PostgreSQL_1\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-if3ef8\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_7e08c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7e08c.dir\\CheckFunctionExists.c.obj  /out:cmTC_7e08c.exe /implib:cmTC_7e08c.lib /pdb:cmTC_7e08c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_7e08c.exe 
+        cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_7e08c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7e08c.dir\\CheckFunctionExists.c.obj  /out:cmTC_7e08c.exe /implib:cmTC_7e08c.lib /pdb:cmTC_7e08c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7e08c.dir\\CheckFunctionExists.c.obj /out:cmTC_7e08c.exe /implib:cmTC_7e08c.lib /pdb:cmTC_7e08c.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_7e08c.dir/intermediate.manifest CMakeFiles\\cmTC_7e08c.dir/manifest.res" failed (exit code 1120) with the following output:
+        CheckFunctionExists.c.obj : error LNK2019: unresolved external symbol poll referenced in function main
+        cmTC_7e08c.exe : fatal error LNK1120: 1 unresolved externals\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:2 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CHARCONV_FLOAT"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_94749 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_94749.dir\\PQXX_HAVE_CHARCONV_FLOAT.cxx.obj /FdCMakeFiles\\cmTC_94749.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CHARCONV_FLOAT.cxx
+        FAILED: CMakeFiles/cmTC_94749.dir/PQXX_HAVE_CHARCONV_FLOAT.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_94749.dir\\PQXX_HAVE_CHARCONV_FLOAT.cxx.obj /FdCMakeFiles\\cmTC_94749.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CHARCONV_FLOAT.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CHARCONV_FLOAT.cxx(15): error C2146: syntax error: missing ')' before identifier 'and'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:6 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CHARCONV_INT"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_09555 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_09555.dir\\PQXX_HAVE_CHARCONV_INT.cxx.obj /FdCMakeFiles\\cmTC_09555.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CHARCONV_INT.cxx
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_09555.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_09555.dir\\PQXX_HAVE_CHARCONV_INT.cxx.obj  /out:cmTC_09555.exe /implib:cmTC_09555.lib /pdb:cmTC_09555.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:10 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CMP"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_af511 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_af511.dir\\PQXX_HAVE_CMP.cxx.obj /FdCMakeFiles\\cmTC_af511.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CMP.cxx
+        FAILED: CMakeFiles/cmTC_af511.dir/PQXX_HAVE_CMP.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_af511.dir\\PQXX_HAVE_CMP.cxx.obj /FdCMakeFiles\\cmTC_af511.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CMP.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CMP.cxx(8): error C2039: 'cmp_greater': is not a member of 'std'
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\include\\utility(33): note: see declaration of 'std'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CMP.cxx(8): error C3861: 'cmp_greater': identifier not found
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CMP.cxx(8): error C2039: 'cmp_less_equal': is not a member of 'std'
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\include\\utility(33): note: see declaration of 'std'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CMP.cxx(8): error C3861: 'cmp_less_equal': identifier not found
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:14 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_499f9 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_499f9.dir\\PQXX_HAVE_CONCEPTS.cxx.obj /FdCMakeFiles\\cmTC_499f9.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CONCEPTS.cxx
+        FAILED: CMakeFiles/cmTC_499f9.dir/PQXX_HAVE_CONCEPTS.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_499f9.dir\\PQXX_HAVE_CONCEPTS.cxx.obj /FdCMakeFiles\\cmTC_499f9.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CONCEPTS.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CONCEPTS.cxx(5): fatal error C1189: #error:  "No PQXX_HAVE_CONCEPTS: __cpp_concepts is not set."
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:18 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CXA_DEMANGLE"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_e11ce && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_e11ce.dir\\PQXX_HAVE_CXA_DEMANGLE.cxx.obj /FdCMakeFiles\\cmTC_e11ce.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CXA_DEMANGLE.cxx
+        FAILED: CMakeFiles/cmTC_e11ce.dir/PQXX_HAVE_CXA_DEMANGLE.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_e11ce.dir\\PQXX_HAVE_CXA_DEMANGLE.cxx.obj /FdCMakeFiles\\cmTC_e11ce.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CXA_DEMANGLE.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CXA_DEMANGLE.cxx(7): fatal error C1083: Cannot open include file: 'cxxabi.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:22 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_GCC_PURE"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_c01b8 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_c01b8.dir\\PQXX_HAVE_GCC_PURE.cxx.obj /FdCMakeFiles\\cmTC_c01b8.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_PURE.cxx
+        FAILED: CMakeFiles/cmTC_c01b8.dir/PQXX_HAVE_GCC_PURE.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_c01b8.dir\\PQXX_HAVE_GCC_PURE.cxx.obj /FdCMakeFiles\\cmTC_c01b8.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_PURE.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_PURE.cxx(2): error C2065: 'pure': undeclared identifier
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_PURE.cxx(2): error C2146: syntax error: missing ';' before identifier 'f'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_PURE.cxx(2): error C2059: syntax error: ')'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_PURE.cxx(3): error C2143: syntax error: missing ';' before '{'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_PURE.cxx(3): error C2447: '{': missing function header (old-style formal list?)
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_PURE.cxx(9): error C3861: 'f': identifier not found
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:26 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_GCC_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_75e08 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_75e08.dir\\PQXX_HAVE_GCC_VISIBILITY.cxx.obj /FdCMakeFiles\\cmTC_75e08.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx
+        FAILED: CMakeFiles/cmTC_75e08.dir/PQXX_HAVE_GCC_VISIBILITY.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_75e08.dir\\PQXX_HAVE_GCC_VISIBILITY.cxx.obj /FdCMakeFiles\\cmTC_75e08.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2): error C2143: syntax error: missing ')' before '('
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2): error C2079: 'visibility' uses undefined struct '__attribute__'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2): error C2440: 'initializing': cannot convert from 'const char [7]' to 'int'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2): note: There is no context in which this conversion is possible
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2): error C2059: syntax error: ')'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2): error C2059: syntax error: ')'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2): error C2146: syntax error: missing ';' before identifier 'D'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(3): error C2447: '{': missing function header (old-style formal list?)
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(10): error C2065: 'D': undeclared identifier
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(10): error C2146: syntax error: missing ';' before identifier 'd'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(10): error C2065: 'd': undeclared identifier
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(11): error C2065: 'd': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:30 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_LIKELY"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_946d0 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_946d0.dir\\PQXX_HAVE_LIKELY.cxx.obj /FdCMakeFiles\\cmTC_946d0.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_LIKELY.cxx
+        FAILED: CMakeFiles/cmTC_946d0.dir/PQXX_HAVE_LIKELY.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_946d0.dir\\PQXX_HAVE_LIKELY.cxx.obj /FdCMakeFiles\\cmTC_946d0.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_LIKELY.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_LIKELY.cxx(7): error C2065: 'because': undeclared identifier
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_LIKELY.cxx(7): error C2065: 'older': undeclared identifier
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_LIKELY.cxx(7): error C2065: 'C': undeclared identifier
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_LIKELY.cxx(7): error C2065: 'standard': undeclared identifier
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_LIKELY.cxx(7): error C3861: 'deliberately_fail': identifier not found
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_LIKELY.cxx(11): warning C5051: attribute 'likely' requires at least '/std:c++20'; ignored
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:34 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_MULTIDIM"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_631af && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_631af.dir\\PQXX_HAVE_MULTIDIM.cxx.obj /FdCMakeFiles\\cmTC_631af.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_MULTIDIM.cxx
+        FAILED: CMakeFiles/cmTC_631af.dir/PQXX_HAVE_MULTIDIM.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_631af.dir\\PQXX_HAVE_MULTIDIM.cxx.obj /FdCMakeFiles\\cmTC_631af.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_MULTIDIM.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_MULTIDIM.cxx(5): fatal error C1189: #error:  "No PQXX_HAVE_MULTIDIM: __cpp_multidimensional_subscript is not set."
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:38 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_PATH"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_6eb99 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_6eb99.dir\\PQXX_HAVE_PATH.cxx.obj /FdCMakeFiles\\cmTC_6eb99.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_PATH.cxx
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_6eb99.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6eb99.dir\\PQXX_HAVE_PATH.cxx.obj  /out:cmTC_6eb99.exe /implib:cmTC_6eb99.lib /pdb:cmTC_6eb99.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:42 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_POLL"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_d0822 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_d0822.dir\\PQXX_HAVE_POLL.cxx.obj /FdCMakeFiles\\cmTC_d0822.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_POLL.cxx
+        FAILED: CMakeFiles/cmTC_d0822.dir/PQXX_HAVE_POLL.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_d0822.dir\\PQXX_HAVE_POLL.cxx.obj /FdCMakeFiles\\cmTC_d0822.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_POLL.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_POLL.cxx(2): fatal error C1083: Cannot open include file: 'poll.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:46 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_SLEEP_FOR"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_4f75c && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_4f75c.dir\\PQXX_HAVE_SLEEP_FOR.cxx.obj /FdCMakeFiles\\cmTC_4f75c.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_SLEEP_FOR.cxx
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4f75c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4f75c.dir\\PQXX_HAVE_SLEEP_FOR.cxx.obj  /out:cmTC_4f75c.exe /implib:cmTC_4f75c.lib /pdb:cmTC_4f75c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:50 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_SOURCE_LOCATION"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_e60ee && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_e60ee.dir\\PQXX_HAVE_SOURCE_LOCATION.cxx.obj /FdCMakeFiles\\cmTC_e60ee.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_SOURCE_LOCATION.cxx
+        FAILED: CMakeFiles/cmTC_e60ee.dir/PQXX_HAVE_SOURCE_LOCATION.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_e60ee.dir\\PQXX_HAVE_SOURCE_LOCATION.cxx.obj /FdCMakeFiles\\cmTC_e60ee.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_SOURCE_LOCATION.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_SOURCE_LOCATION.cxx(5): fatal error C1189: #error:  "No PQXX_HAVE_SOURCE_LOCATION: __cpp_lib_source_location is not set."
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:54 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_SPAN"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_46815 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_46815.dir\\PQXX_HAVE_SPAN.cxx.obj /FdCMakeFiles\\cmTC_46815.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_SPAN.cxx
+        FAILED: CMakeFiles/cmTC_46815.dir/PQXX_HAVE_SPAN.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_46815.dir\\PQXX_HAVE_SPAN.cxx.obj /FdCMakeFiles\\cmTC_46815.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_SPAN.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_SPAN.cxx(5): fatal error C1189: #error:  "No PQXX_HAVE_SPAN: __cpp_lib_span is not set."
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:58 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_SSIZE"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_0cc1e && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_0cc1e.dir\\PQXX_HAVE_SSIZE.cxx.obj /FdCMakeFiles\\cmTC_0cc1e.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_SSIZE.cxx
+        FAILED: CMakeFiles/cmTC_0cc1e.dir/PQXX_HAVE_SSIZE.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_0cc1e.dir\\PQXX_HAVE_SSIZE.cxx.obj /FdCMakeFiles\\cmTC_0cc1e.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_SSIZE.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_SSIZE.cxx(5): fatal error C1189: #error:  "No PQXX_HAVE_SSIZE: __cpp_lib_ssize is not set."
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:62 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_STRERROR_R"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_d4b22 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_d4b22.dir\\PQXX_HAVE_STRERROR_R.cxx.obj /FdCMakeFiles\\cmTC_d4b22.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_STRERROR_R.cxx
+        FAILED: CMakeFiles/cmTC_d4b22.dir/PQXX_HAVE_STRERROR_R.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_d4b22.dir\\PQXX_HAVE_STRERROR_R.cxx.obj /FdCMakeFiles\\cmTC_d4b22.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_STRERROR_R.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_STRERROR_R.cxx(11): error C3861: 'strerror_r': identifier not found
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_STRERROR_R.cxx(13): error C2065: 'not': undeclared identifier
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_STRERROR_R.cxx(13): error C2146: syntax error: missing ';' before identifier 'not'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_STRERROR_R.cxx(13): error C2065: 'not': undeclared identifier
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_STRERROR_R.cxx(13): error C2146: syntax error: missing ';' before identifier 'res'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:66 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_STRERROR_S"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_b4206 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_b4206.dir\\PQXX_HAVE_STRERROR_S.cxx.obj /FdCMakeFiles\\cmTC_b4206.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_STRERROR_S.cxx
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_b4206.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b4206.dir\\PQXX_HAVE_STRERROR_S.cxx.obj  /out:cmTC_b4206.exe /implib:cmTC_b4206.lib /pdb:cmTC_b4206.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:70 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_THREAD_LOCAL"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_babd4 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_babd4.dir\\PQXX_HAVE_THREAD_LOCAL.cxx.obj /FdCMakeFiles\\cmTC_babd4.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_THREAD_LOCAL.cxx
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_babd4.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_babd4.dir\\PQXX_HAVE_THREAD_LOCAL.cxx.obj  /out:cmTC_babd4.exe /implib:cmTC_babd4.lib /pdb:cmTC_babd4.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:74 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_YEAR_MONTH_DAY"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_31ef5 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_31ef5.dir\\PQXX_HAVE_YEAR_MONTH_DAY.cxx.obj /FdCMakeFiles\\cmTC_31ef5.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_YEAR_MONTH_DAY.cxx
+        FAILED: CMakeFiles/cmTC_31ef5.dir/PQXX_HAVE_YEAR_MONTH_DAY.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_31ef5.dir\\PQXX_HAVE_YEAR_MONTH_DAY.cxx.obj /FdCMakeFiles\\cmTC_31ef5.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_YEAR_MONTH_DAY.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_YEAR_MONTH_DAY.cxx(6): error C2039: 'year': is not a member of 'std::chrono'
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\include\\__msvc_chrono.hpp(785): note: see declaration of 'std::chrono'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_YEAR_MONTH_DAY.cxx(6): error C2065: 'year': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:78 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "no_need_fslib"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_22f6d && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_22f6d.dir\\no_need_fslib.cxx.obj /FdCMakeFiles\\cmTC_22f6d.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\no_need_fslib.cxx
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_22f6d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_22f6d.dir\\no_need_fslib.cxx.obj  /out:cmTC_22f6d.exe /implib:cmTC_22f6d.lib /pdb:cmTC_22f6d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:2 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CHARCONV_FLOAT"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_ffaa2 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_ffaa2.dir\\PQXX_HAVE_CHARCONV_FLOAT.cxx.obj /FdCMakeFiles\\cmTC_ffaa2.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CHARCONV_FLOAT.cxx
+        FAILED: CMakeFiles/cmTC_ffaa2.dir/PQXX_HAVE_CHARCONV_FLOAT.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_ffaa2.dir\\PQXX_HAVE_CHARCONV_FLOAT.cxx.obj /FdCMakeFiles\\cmTC_ffaa2.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CHARCONV_FLOAT.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CHARCONV_FLOAT.cxx(15): error C2146: syntax error: missing ')' before identifier 'and'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:6 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CHARCONV_INT"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_6b055 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_6b055.dir\\PQXX_HAVE_CHARCONV_INT.cxx.obj /FdCMakeFiles\\cmTC_6b055.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CHARCONV_INT.cxx
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_6b055.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6b055.dir\\PQXX_HAVE_CHARCONV_INT.cxx.obj  /out:cmTC_6b055.exe /implib:cmTC_6b055.lib /pdb:cmTC_6b055.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:10 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CMP"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_2d9fb && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_2d9fb.dir\\PQXX_HAVE_CMP.cxx.obj /FdCMakeFiles\\cmTC_2d9fb.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CMP.cxx
+        FAILED: CMakeFiles/cmTC_2d9fb.dir/PQXX_HAVE_CMP.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_2d9fb.dir\\PQXX_HAVE_CMP.cxx.obj /FdCMakeFiles\\cmTC_2d9fb.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CMP.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CMP.cxx(8): error C2039: 'cmp_greater': is not a member of 'std'
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\include\\utility(33): note: see declaration of 'std'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CMP.cxx(8): error C3861: 'cmp_greater': identifier not found
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CMP.cxx(8): error C2039: 'cmp_less_equal': is not a member of 'std'
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\include\\utility(33): note: see declaration of 'std'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CMP.cxx(8): error C3861: 'cmp_less_equal': identifier not found
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:14 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_48934 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_48934.dir\\PQXX_HAVE_CONCEPTS.cxx.obj /FdCMakeFiles\\cmTC_48934.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CONCEPTS.cxx
+        FAILED: CMakeFiles/cmTC_48934.dir/PQXX_HAVE_CONCEPTS.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_48934.dir\\PQXX_HAVE_CONCEPTS.cxx.obj /FdCMakeFiles\\cmTC_48934.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CONCEPTS.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CONCEPTS.cxx(5): fatal error C1189: #error:  "No PQXX_HAVE_CONCEPTS: __cpp_concepts is not set."
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:18 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CXA_DEMANGLE"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_6eb7c && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_6eb7c.dir\\PQXX_HAVE_CXA_DEMANGLE.cxx.obj /FdCMakeFiles\\cmTC_6eb7c.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CXA_DEMANGLE.cxx
+        FAILED: CMakeFiles/cmTC_6eb7c.dir/PQXX_HAVE_CXA_DEMANGLE.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_6eb7c.dir\\PQXX_HAVE_CXA_DEMANGLE.cxx.obj /FdCMakeFiles\\cmTC_6eb7c.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CXA_DEMANGLE.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_CXA_DEMANGLE.cxx(7): fatal error C1083: Cannot open include file: 'cxxabi.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:22 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_GCC_PURE"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_a05b8 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_a05b8.dir\\PQXX_HAVE_GCC_PURE.cxx.obj /FdCMakeFiles\\cmTC_a05b8.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_PURE.cxx
+        FAILED: CMakeFiles/cmTC_a05b8.dir/PQXX_HAVE_GCC_PURE.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_a05b8.dir\\PQXX_HAVE_GCC_PURE.cxx.obj /FdCMakeFiles\\cmTC_a05b8.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_PURE.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_PURE.cxx(2): error C2065: 'pure': undeclared identifier
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_PURE.cxx(2): error C2146: syntax error: missing ';' before identifier 'f'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_PURE.cxx(2): error C2059: syntax error: ')'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_PURE.cxx(3): error C2143: syntax error: missing ';' before '{'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_PURE.cxx(3): error C2447: '{': missing function header (old-style formal list?)
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_PURE.cxx(9): error C3861: 'f': identifier not found
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:26 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_GCC_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_10f3b && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_10f3b.dir\\PQXX_HAVE_GCC_VISIBILITY.cxx.obj /FdCMakeFiles\\cmTC_10f3b.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx
+        FAILED: CMakeFiles/cmTC_10f3b.dir/PQXX_HAVE_GCC_VISIBILITY.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_10f3b.dir\\PQXX_HAVE_GCC_VISIBILITY.cxx.obj /FdCMakeFiles\\cmTC_10f3b.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2): error C2143: syntax error: missing ')' before '('
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2): error C2079: 'visibility' uses undefined struct '__attribute__'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2): error C2440: 'initializing': cannot convert from 'const char [7]' to 'int'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2): note: There is no context in which this conversion is possible
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2): error C2059: syntax error: ')'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2): error C2059: syntax error: ')'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2): error C2146: syntax error: missing ';' before identifier 'D'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(3): error C2447: '{': missing function header (old-style formal list?)
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(10): error C2065: 'D': undeclared identifier
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(10): error C2146: syntax error: missing ';' before identifier 'd'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(10): error C2065: 'd': undeclared identifier
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(11): error C2065: 'd': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:30 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_LIKELY"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_06397 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_06397.dir\\PQXX_HAVE_LIKELY.cxx.obj /FdCMakeFiles\\cmTC_06397.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_LIKELY.cxx
+        FAILED: CMakeFiles/cmTC_06397.dir/PQXX_HAVE_LIKELY.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_06397.dir\\PQXX_HAVE_LIKELY.cxx.obj /FdCMakeFiles\\cmTC_06397.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_LIKELY.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_LIKELY.cxx(7): error C2065: 'because': undeclared identifier
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_LIKELY.cxx(7): error C2065: 'older': undeclared identifier
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_LIKELY.cxx(7): error C2065: 'C': undeclared identifier
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_LIKELY.cxx(7): error C2065: 'standard': undeclared identifier
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_LIKELY.cxx(7): error C3861: 'deliberately_fail': identifier not found
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_LIKELY.cxx(11): warning C5051: attribute 'likely' requires at least '/std:c++20'; ignored
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:34 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_MULTIDIM"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_9bf73 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_9bf73.dir\\PQXX_HAVE_MULTIDIM.cxx.obj /FdCMakeFiles\\cmTC_9bf73.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_MULTIDIM.cxx
+        FAILED: CMakeFiles/cmTC_9bf73.dir/PQXX_HAVE_MULTIDIM.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_9bf73.dir\\PQXX_HAVE_MULTIDIM.cxx.obj /FdCMakeFiles\\cmTC_9bf73.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_MULTIDIM.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_MULTIDIM.cxx(5): fatal error C1189: #error:  "No PQXX_HAVE_MULTIDIM: __cpp_multidimensional_subscript is not set."
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:38 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_PATH"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_3dc30 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_3dc30.dir\\PQXX_HAVE_PATH.cxx.obj /FdCMakeFiles\\cmTC_3dc30.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_PATH.cxx
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_3dc30.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_3dc30.dir\\PQXX_HAVE_PATH.cxx.obj  /out:cmTC_3dc30.exe /implib:cmTC_3dc30.lib /pdb:cmTC_3dc30.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:42 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_POLL"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_21977 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_21977.dir\\PQXX_HAVE_POLL.cxx.obj /FdCMakeFiles\\cmTC_21977.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_POLL.cxx
+        FAILED: CMakeFiles/cmTC_21977.dir/PQXX_HAVE_POLL.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_21977.dir\\PQXX_HAVE_POLL.cxx.obj /FdCMakeFiles\\cmTC_21977.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_POLL.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_POLL.cxx(2): fatal error C1083: Cannot open include file: 'poll.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:46 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_SLEEP_FOR"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_ddc07 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_ddc07.dir\\PQXX_HAVE_SLEEP_FOR.cxx.obj /FdCMakeFiles\\cmTC_ddc07.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_SLEEP_FOR.cxx
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ddc07.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ddc07.dir\\PQXX_HAVE_SLEEP_FOR.cxx.obj  /out:cmTC_ddc07.exe /implib:cmTC_ddc07.lib /pdb:cmTC_ddc07.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:50 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_SOURCE_LOCATION"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_6d1f3 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_6d1f3.dir\\PQXX_HAVE_SOURCE_LOCATION.cxx.obj /FdCMakeFiles\\cmTC_6d1f3.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_SOURCE_LOCATION.cxx
+        FAILED: CMakeFiles/cmTC_6d1f3.dir/PQXX_HAVE_SOURCE_LOCATION.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_6d1f3.dir\\PQXX_HAVE_SOURCE_LOCATION.cxx.obj /FdCMakeFiles\\cmTC_6d1f3.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_SOURCE_LOCATION.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_SOURCE_LOCATION.cxx(5): fatal error C1189: #error:  "No PQXX_HAVE_SOURCE_LOCATION: __cpp_lib_source_location is not set."
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:54 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_SPAN"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_59eac && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_59eac.dir\\PQXX_HAVE_SPAN.cxx.obj /FdCMakeFiles\\cmTC_59eac.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_SPAN.cxx
+        FAILED: CMakeFiles/cmTC_59eac.dir/PQXX_HAVE_SPAN.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_59eac.dir\\PQXX_HAVE_SPAN.cxx.obj /FdCMakeFiles\\cmTC_59eac.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_SPAN.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_SPAN.cxx(5): fatal error C1189: #error:  "No PQXX_HAVE_SPAN: __cpp_lib_span is not set."
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:58 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_SSIZE"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_8a3df && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_8a3df.dir\\PQXX_HAVE_SSIZE.cxx.obj /FdCMakeFiles\\cmTC_8a3df.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_SSIZE.cxx
+        FAILED: CMakeFiles/cmTC_8a3df.dir/PQXX_HAVE_SSIZE.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_8a3df.dir\\PQXX_HAVE_SSIZE.cxx.obj /FdCMakeFiles\\cmTC_8a3df.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_SSIZE.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_SSIZE.cxx(5): fatal error C1189: #error:  "No PQXX_HAVE_SSIZE: __cpp_lib_ssize is not set."
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:62 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_STRERROR_R"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_f2680 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_f2680.dir\\PQXX_HAVE_STRERROR_R.cxx.obj /FdCMakeFiles\\cmTC_f2680.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_STRERROR_R.cxx
+        FAILED: CMakeFiles/cmTC_f2680.dir/PQXX_HAVE_STRERROR_R.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_f2680.dir\\PQXX_HAVE_STRERROR_R.cxx.obj /FdCMakeFiles\\cmTC_f2680.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_STRERROR_R.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_STRERROR_R.cxx(11): error C3861: 'strerror_r': identifier not found
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_STRERROR_R.cxx(13): error C2065: 'not': undeclared identifier
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_STRERROR_R.cxx(13): error C2146: syntax error: missing ';' before identifier 'not'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_STRERROR_R.cxx(13): error C2065: 'not': undeclared identifier
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_STRERROR_R.cxx(13): error C2146: syntax error: missing ';' before identifier 'res'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:66 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_STRERROR_S"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_ba52d && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_ba52d.dir\\PQXX_HAVE_STRERROR_S.cxx.obj /FdCMakeFiles\\cmTC_ba52d.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_STRERROR_S.cxx
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ba52d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ba52d.dir\\PQXX_HAVE_STRERROR_S.cxx.obj  /out:cmTC_ba52d.exe /implib:cmTC_ba52d.lib /pdb:cmTC_ba52d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:70 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_THREAD_LOCAL"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_65fdf && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_65fdf.dir\\PQXX_HAVE_THREAD_LOCAL.cxx.obj /FdCMakeFiles\\cmTC_65fdf.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_THREAD_LOCAL.cxx
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_65fdf.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_65fdf.dir\\PQXX_HAVE_THREAD_LOCAL.cxx.obj  /out:cmTC_65fdf.exe /implib:cmTC_65fdf.lib /pdb:cmTC_65fdf.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:74 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_YEAR_MONTH_DAY"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_33015 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_33015.dir\\PQXX_HAVE_YEAR_MONTH_DAY.cxx.obj /FdCMakeFiles\\cmTC_33015.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_YEAR_MONTH_DAY.cxx
+        FAILED: CMakeFiles/cmTC_33015.dir/PQXX_HAVE_YEAR_MONTH_DAY.cxx.obj 
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_33015.dir\\PQXX_HAVE_YEAR_MONTH_DAY.cxx.obj /FdCMakeFiles\\cmTC_33015.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_YEAR_MONTH_DAY.cxx
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_YEAR_MONTH_DAY.cxx(6): error C2039: 'year': is not a member of 'std::chrono'
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\include\\__msvc_chrono.hpp(785): note: see declaration of 'std::chrono'
+        D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\PQXX_HAVE_YEAR_MONTH_DAY.cxx(6): error C2065: 'year': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/pqxx_cxx_feature_checks.cmake:78 (try_compile)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake/config.cmake:44 (include)"
+      - "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/\u041d\u0435\u0442\u043e\u043b\u043e\u0433\u0438\u044f/libpqxx-7.9.2/libpqxx-7.9.2/cmake"
+    buildResult:
+      variable: "no_need_fslib"
+      cached: true
+      stdout: |
+        Change Dir: D:/Нетология/Homework/PostgreSQL_1/out/build/x64-Debug/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_c7da8 && [1/2] C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_c7da8.dir\\no_need_fslib.cxx.obj /FdCMakeFiles\\cmTC_c7da8.dir\\ /FS -c D:\\Нетология\\libpqxx-7.9.2\\libpqxx-7.9.2\\config-tests\\no_need_fslib.cxx
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_c7da8.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1437~1.328\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c7da8.dir\\no_need_fslib.cxx.obj  /out:cmTC_c7da8.exe /implib:cmTC_c7da8.lib /pdb:cmTC_c7da8.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
