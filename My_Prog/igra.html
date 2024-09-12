@@ -1,0 +1,60 @@
+<script type="text/javascript" langvage="Javascript">
+
+t=false;
+d=document;
+d.write("<table border=1 bgcolor='grey'>");
+s1 = s2 = "";
+n=0;
+for(i=0;i<3;i++)
+{
+	d.write("<tr>");
+	for(j=0;j<3;j++){
+		d.write("<td id='c" + n + "' width=60 height=60 onclick='my(this)' align='center'>&nbsp;</td>");
+		n++;
+	}
+	d.write("</tr>");
+}
+ flag=1;
+function my(e)
+{
+    if(e.innerHTML != "&nbsp;")
+        return;
+
+    if(flag){
+	if(t)
+		return;
+        e.innerHTML="X";
+	s1 += e.id; 
+	if(win(s1))
+	{
+		t=true;
+		alert("Выиграл 1й игрок");
+		return;
+	}
+    }
+    if(!flag){
+	if(t)
+		return;
+        e.innerHTML="O";
+	s2 += e.id; 
+	if(win(s2))
+	{
+		t=true;
+		alert("Выиграл 2й игрок");
+		return;
+	}
+    }
+    flag=!flag;
+status = s1 +"  "+ s2;
+}
+
+
+function win(s){
+	RE = /(((c0.*)|(c1.*)|(c2.*)){3})|(((c3.*)|(c4.*)|(c5.*)){3})|(((c6.*)|(c7.*)|(c8.*)){3})|(((c0.*)|(c3.*)|(c6.*)){3})|(((c1.*)|(c4.*)|(c7.*)){3})|(((c2.*)|(c5.*)|(c8.*)){3})|(((c0.*)|(c4.*)|(c8.*)){3})|(((c2.*)|(c4.*)|(c6.*)){3})/;
+	if(s.search(RE) != -1)
+		return 1;
+	return 0;
+
+}
+
+</script>
