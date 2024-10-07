@@ -9,5 +9,5 @@
  
 ## Документы
 *Руководство представлено в двух форматах*
-1. <Руководство_пользователя_Системы_навигации.docx>
-2. <РуководствопоэксплуатацииСистемынавигацииавтономногоробота.md>
+1. <https://github.com/MagnetNata/origin/blob/main/Test1/%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE_%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F_%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B_%D0%BD%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D0%B8.docx>
+2. <https://github.com/MagnetNata/origin/blob/main/Test1/%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%D0%BF%D0%BE%D1%8D%D0%BA%D1%81%D0%BF%D0%BB%D1%83%D0%B0%D1%82%D0%B0%D1%86%D0%B8%D0%B8%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%D0%BD%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D0%B8%D0%B0%D0%B2%D1%82%D0%BE%D0%BD%D0%BE%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B0.md>
