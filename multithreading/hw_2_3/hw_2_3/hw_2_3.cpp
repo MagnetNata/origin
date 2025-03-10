@@ -9,6 +9,8 @@
 void swapWithLock(Data& d1, Data& d2)
 {
     std::lock(d1.mutex1, d2.mutex1);
+    std::lock_guard<std::mutex>L1{ d1.mutex1, std::adopt_lock };
+    std::lock_guard<std::mutex>L2{ d2.mutex1, std::adopt_lock };
 
     int tmp = d1.getValue();
     d1.setValue(d2.getValue());
@@ -17,9 +19,6 @@ void swapWithLock(Data& d1, Data& d2)
     std::cout << std::endl << "ID потока: " << std::this_thread::get_id() << " после функции: " __FUNCTION__ << std::endl;
     std::cout << "value1 = " << d1.getValue() << ";" << std::endl;
     std::cout << "value1 = " << d2.getValue() << ";" << std::endl;
-
-    d1.mutex1.unlock();
-    d2.mutex1.unlock();
 }
 
 void swapWithScopedLock(Data& d1, Data& d2)
@@ -39,8 +38,7 @@ void swapWithUniqueLock(Data& d1, Data& d2)
 {
     std::unique_lock<std::mutex> lock1(d1.mutex1, std::defer_lock);
     std::unique_lock<std::mutex> lock2(d2.mutex1, std::defer_lock);
-    lock1.lock();
-    lock2.lock();
+    std::lock(lock1, lock2);
 
     int tmp = d1.getValue();
     d1.setValue(d2.getValue());
@@ -49,8 +47,6 @@ void swapWithUniqueLock(Data& d1, Data& d2)
     std::cout << std::endl << "ID потока: " << std::this_thread::get_id() << " после функции: " __FUNCTION__ << std::endl;
     std::cout << "value1 = " << d1.getValue() << ";" << std::endl;
     std::cout << "value1 = " << d2.getValue() << ";" << std::endl;
-    lock1.unlock();
-    lock2.unlock();
 }
 
 int main()
